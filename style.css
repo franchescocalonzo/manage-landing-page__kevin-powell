@@ -300,7 +300,6 @@ p[data-width="wide"] {
     "social"
     "logo"
     "copyright";
-  outline: 2px solid red;
 }
 
 .social-list {
@@ -723,10 +722,6 @@ input:where([type="text"], [type="email"]) {
 
 :where(.flow :not(:first-child)) {
   margin-top: var(--flow-spacer, 3em);
-}
-
-.even-columns > * {
-  /* outline: 2px solid lime; */
 }
 
 .visually-hidden {
